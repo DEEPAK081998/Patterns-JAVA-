@@ -22,12 +22,9 @@ class Apattern{
             //print stars
             int istar=1;
             while(istar<=nstars){
-                if(irow<n/2&&(istar==1||istar==nstars)){
+                if(irow!=n/2&&(istar==1||istar==nstars)){
                 System.out.print("* ");}
                 else if(irow==n/2){
-                    System.out.print("* ");
-                }
-                else if(irow>n/2&&(istar==1||istar==nstars)){
                     System.out.print("* ");
                 }
                 else{
